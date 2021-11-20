@@ -1,6 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
 const uri =
-  "mongodb+srv://leibo:Roy123!@playersapp.sue7y.mongodb.net/playersDb?retryWrites=true&w=majority";
+  "mongodb+srv://<your_userName>:<your_password>@playersapp.sue7y.mongodb.net/playersDb?retryWrites=true&w=majority";
 const mongoClientOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 const connectionName = "players";
 const databaseName = "NBAPlayers";
